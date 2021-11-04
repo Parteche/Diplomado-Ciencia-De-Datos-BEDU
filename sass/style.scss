@@ -1,0 +1,15 @@
+
+$font-family-sans-serif: 'Zen Maru Gothic', sans-serif;
+
+$primary:       #e4c5a7;
+$secondary:     #923a21;
+$success:       #fca815;
+$info:          #6b724e;
+$warning:       #cbcbcb;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.picture1 {
+    width: 15rem;
+    height: 5rem;
+}

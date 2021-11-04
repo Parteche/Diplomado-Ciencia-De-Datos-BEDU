@@ -1,0 +1,139 @@
+:root {
+    --Rosita: #e2b8ac;
+    --Verdesito: #919f89;
+    --Azulito: #cddad8;
+    --Gris: #828282;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    margin: 0 2rem 0 2rem;
+}
+
+header {
+    background-color: var(--Rosita);
+    padding: 0.5rem;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav.nav-principal {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Verdesito);
+}
+
+.seccion-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+}
+
+.logo {
+    width: 15rem;
+    height: 15rem;
+}
+
+.nav-secundaria {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    height: 60rem;
+}
+
+h3 {
+    text-align: center;
+    color: var(--Verdesito);
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+button.btn {
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 4rem auto;
+}
+
+h2 {
+    text-align: center;
+    color: var(--Verdesito);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.box-img {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.img-varias {
+    width: 35rem;
+    height: 45rem;
+}
+
+.img-h4 {
+    text-align: center;
+    color: var(--Rosita);
+}
+
+
+.container.email-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-h4-1 {
+    text-align: center;
+}
+
+.email-item {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+div.box-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.lista2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
